@@ -141,24 +141,10 @@ button:hover{
 
 /* Surprise popup */
 .popup{
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  background: white;
-  width: 90%;              /* important for mobile */
-  max-width: 400px;        /* limits width on big screens */
-  
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(255,105,180,0.4);
-  
-  text-align: center;
-  z-index: 1000;
-
-  word-wrap: break-word;   /* prevents text breaking layout */
+ display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:white; padding:30px; border-radius:20px; box-shadow:0 10px 40px rgba(255,105,180,0.4); text-align:center; z-index:10; /* prevents text breaking layout */
+}
+  .popup p {
+  font-size: 14px;
 }
 
 </style>
@@ -218,7 +204,7 @@ button:hover{
   LOVE YOU FOREVER UNTILL MY LAST DI THANGOOO♾️🤍💋🫂
   KAALAM MUDIYALAM NAM KAADHAL MUDIYUMAHH??♾️
   MUDHA NEE MUDIVUM NEE💎By your WIFEYY🥰💋 </p>
-<button onclick="closeSurprise()">Close</button>
+<button onclick="closeSurprise()">❤️click❤️</button>
 </div>
 
 <script>
@@ -297,6 +283,7 @@ setInterval(createHeart,600);
 </body>
 
 </html>
+
 
 
 
